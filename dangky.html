@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký thành viên</title>
+    <link rel="shortcut icon" type="image/png" href="./data/images/favicon.ico"/>
+</head>
+<body>
+   <header>
+        <a href="#trangchu">
+            <img id="logo" src="./data/images/logo.png" alt="Không load được ảnh">
+        </a>
+       <nav>
+            <a href="./trangchu.html">Trang Chủ</a>
+            <a href="./gioithieu.html">Giới Thiệu</a>
+            <a href="./sanpham.html">Sản Phẩm</a>
+            <a href="./tintuc.html">Tin Tức</a>
+            <a href="./dang nhap.html">Đăng Nhập</a>
+            <a href="./dangky.html">Đăng Ký</a>
+            <a href="./lienhe.html">Liên Hệ</a>
+       </nav>
+   </header>
+
+   <main>
+       <form action="" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend><strong>ĐĂNG KÝ</strong></legend>
+            <table>
+                <tr>
+                    <td><strong><label for="Email">Mật khẩu</label></strong></td>
+                    <td>
+                        <input type="text" id="Email" name="Email" size="40%" placeholder="Vui lòng nhập email"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><strong><label for="pass">Mật khẩu</label></strong></td>
+                    <td>
+                        <input type="password" id="pass" name="psw" size="40%" placeholder="Vui lòng nhập mật khẩu"/>
+                    </td>
+                </tr> 
+
+                <tr>
+                    <td><strong><label for="passagain">Nhập lại mật khẩu</label></strong></td>
+                    <td>
+                        <input type="password" id="passagain" name="psw" size="40%" placeholder="Vui lòng nhập lại mật khẩu"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><strong>Cấp độ thành viên</strong></td>
+                   <td>
+                    <input name="level" type="radio" value="sliver" /><strong>Bạc</strong>
+                    <input name="level" type="radio" value="gold" /><strong>Vàng</strong>
+                    <input name="level" type="radio" value="plantinum" /><strong>Bach Kim</strong>
+                   </td>
+                </tr>
+
+                <tr>
+                    <td><strong>Ảnh đại diện</strong></td>
+                    <td>
+                        <button name="avatar" type="button">Choose File</button>
+                         No file choosen
+                    </td>
+                </tr>
+
+                <tr >
+                    <td colspan="2">
+                        <strong>Thông qua việc tạo tài khoản, bạn đồng ý với <a href="#">Điều khoản & Quyền riêng tư của chúng tôi.</a></strong>
+                    </td>
+                   
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="reset" value="Hủy">
+                        <input type="submit" value="Đăng ký">
+                    </td>
+                    <td></td>
+                </tr>
+
+             </table>
+            
+        </fieldset>
+        </form>
+   </main>
+
+   <footer>
+        <p>
+            <strong>
+                &#169 Bản quyền thuộc về FreeeVN, <a href="#">facebook</a> <a href="#">twitter</a> <a href="#">pinterest</a> <a href="#logo">Về Đầu Trang</a>
+        </strong>
+        </p>
+   </footer>
+</body>
+</html>
